@@ -1,4 +1,4 @@
-## Welcome to [Pablissimo77 blog] (https://pablissimo77.github.io/)
+## Welcome to [Pablissimo77 blog](https://pablissimo77.github.io/)
 Bla-bla
 
 ### Markdown
