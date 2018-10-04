@@ -1,0 +1,4 @@
+Sitemap: http://pablissimo77.site/sitemapindex.xml
+
+User-Agent: *
+Host: pablissimo77.site

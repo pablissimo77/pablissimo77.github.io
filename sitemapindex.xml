@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <sitemap>
+  <loc>http://pablissimo77.site/categories/cat_python.xml</loc>
+  <lastmod>2018-10-04T09:27:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://pablissimo77.site/categories/test.xml</loc>
+  <lastmod>2018-10-04T09:27:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://pablissimo77.site/galleries/rss.xml</loc>
+  <lastmod>2018-10-04T09:26:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://pablissimo77.site/rss.xml</loc>
+  <lastmod>2018-10-04T09:27:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://pablissimo77.site/sitemap.xml</loc>
+  <lastmod>2018-10-04T10:06:00Z</lastmod>
+ </sitemap>
+</sitemapindex>

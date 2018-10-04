@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <url>
+  <loc>http://pablissimo77.site/</loc>
+  <lastmod>2018-10-04T09:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://pablissimo77.site/2018/</loc>
+  <lastmod>2018-10-04T09:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://pablissimo77.site/archive.html</loc>
+  <lastmod>2018-10-04T09:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://pablissimo77.site/categories/</loc>
+  <lastmod>2018-10-04T09:34:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://pablissimo77.site/categories/cat_python/</loc>
+  <lastmod>2018-10-04T09:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://pablissimo77.site/categories/test/</loc>
+  <lastmod>2018-10-04T09:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://pablissimo77.site/galleries/</loc>
+  <lastmod>2018-10-04T09:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://pablissimo77.site/listings/</loc>
+  <lastmod>2018-10-04T09:26:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://pablissimo77.site/posts/2018/10/first-test-post/</loc>
+  <lastmod>2018-10-04T09:26:00Z</lastmod>
+ </url>
+</urlset>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pablissimo77's site (Записи о python)</title><link>http://pablissimo77.site/</link><description></description><atom:link href="http://pablissimo77.site/categories/cat_python.xml" rel="self" type="application/rss+xml"></atom:link><language>ru</language><copyright>Contents © 2018 &lt;a href="mailto:pablissimo77@gmail.com"&gt;pablissimo77&lt;/a&gt; </copyright><lastBuildDate>Thu, 04 Oct 2018 09:27:04 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Первый пост (тест)</title><link>http://pablissimo77.site/posts/2018/10/first-test-post/</link><dc:creator>pablissimo77</dc:creator><description>&lt;div&gt;&lt;h2&gt;Тестирование генератора статических сайтов Nikola&lt;/h2&gt;
+&lt;h3&gt;Картинка раз&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="" src="http://pablissimo77.site/images/2018-10/41f87af6f2524b1686ab02f04714d5bb.gif"&gt;&lt;/p&gt;
+&lt;h3&gt;Картинка два&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="" src="https://pablissimo77.site/images/2018-10/41f87af6f2524b1686ab02f04714d5bb.gif"&gt;&lt;/p&gt;
+&lt;h3&gt;Таблица&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align="left"&gt;state&lt;/th&gt;
+&lt;th align="left"&gt;population&lt;/th&gt;
+&lt;th align="left"&gt;economy&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align="left"&gt;Cordoba&lt;/td&gt;
+&lt;td align="left"&gt;341&lt;/td&gt;
+&lt;td align="left"&gt;189&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="left"&gt;Santa Fe&lt;/td&gt;
+&lt;td align="left"&gt;628&lt;/td&gt;
+&lt;td align="left"&gt;313&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align="left"&gt;San Luis&lt;/td&gt;
+&lt;td align="left"&gt;4669&lt;/td&gt;
+&lt;td align="left"&gt;6&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3&gt;Код&lt;/h3&gt;
+&lt;pre&gt;&lt;code class="python"&gt;    import pandas as pd
+    import numpy as np
+
+
+    n = ['id', 'date', 'name', 'text', 'typr', 'rep', 'rtw', 'faw', 'stcount', 'foll', 'frien', 'listcount']
+    data_positive = pd.read_csv('data/positive.csv', sep=';', error_bad_lines=False, names=n, usecols=['text'])
+    data_negative = pd.read_csv('data/negative.csv', sep=';', error_bad_lines=False, names=n, usecols=['text'])
+
+
+    sample_size = min(data_positive.shape[0], data_negative.shape[0])
+    raw_data = np.concatenate((data_positive['text'].values[:sample_size],
+                               data_negative['text'].values[:sample_size]), axis=0)
+    labels = [1] * sample_size + [0] * sample_size
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description><category>test</category><guid>http://pablissimo77.site/posts/2018/10/first-test-post/</guid><pubDate>Thu, 04 Oct 2018 09:23:00 GMT</pubDate></item></channel></rss>
