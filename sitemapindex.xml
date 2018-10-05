@@ -6,23 +6,23 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://pablissimo77.site/categories/cat_python.xml</loc>
-  <lastmod>2018-10-04T10:13:00Z</lastmod>
+  <loc>https://pablissimo77.site/categories/cat_everything.xml</loc>
+  <lastmod>2018-10-05T10:16:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://pablissimo77.site/categories/test.xml</loc>
-  <lastmod>2018-10-04T10:13:00Z</lastmod>
+  <loc>https://pablissimo77.site/categories/random.xml</loc>
+  <lastmod>2018-10-05T10:16:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://pablissimo77.site/galleries/rss.xml</loc>
-  <lastmod>2018-10-04T10:13:00Z</lastmod>
+  <loc>https://pablissimo77.site/galleries/rss.xml</loc>
+  <lastmod>2018-10-05T10:16:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://pablissimo77.site/rss.xml</loc>
-  <lastmod>2018-10-04T10:13:00Z</lastmod>
+  <loc>https://pablissimo77.site/rss.xml</loc>
+  <lastmod>2018-10-05T10:16:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://pablissimo77.site/sitemap.xml</loc>
-  <lastmod>2018-10-04T10:13:00Z</lastmod>
+  <loc>https://pablissimo77.site/sitemap.xml</loc>
+  <lastmod>2018-10-05T10:16:00Z</lastmod>
  </sitemap>
 </sitemapindex>
