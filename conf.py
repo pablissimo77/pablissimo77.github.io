@@ -304,7 +304,7 @@ TIMEZONE = "Europe/Kiev"
 # 'markdown' is Markdown
 # 'html' assumes the file is HTML and just copies it
 COMPILERS = {
-#    "rest": ('.rst', '.txt'),
+    "rest": ('.rst', '.txt'),
     "markdown": ('.md', '.mdown', '.markdown'),
 #    "textile": ('.textile',),
 #    "txt2tags": ('.t2t',),
@@ -907,7 +907,7 @@ IMAGE_FOLDERS = {'images': 'images'}
 # )
 
 # Show teasers (instead of full posts) in indexes? Defaults to False.
-# INDEX_TEASERS = False
+INDEX_TEASERS = True
 
 # HTML fragments with the Read more... links.
 # The following tags exist and are replaced for you:
@@ -987,7 +987,7 @@ RSS_COPYRIGHT_FORMATS = CONTENT_FOOTER_FORMATS
 # systems.  The following comment systems are supported by Nikola:
 #   disqus, facebook, intensedebate, isso, livefyre, muut
 # You can leave this option blank to disable comments.
-COMMENT_SYSTEM = ""
+COMMENT_SYSTEM = "facebook"
 # And you also need to add your COMMENT_SYSTEM_ID which
 # depends on what comment system you use. The default is
 # "nikolademo" which is a test account for Disqus. More information
