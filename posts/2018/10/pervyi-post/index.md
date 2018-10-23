@@ -1,10 +1,8 @@
 <!--
 .. title: Первый пост
-.. slug: pervyi-post
 .. date: 2018-10-05 12:41:40 UTC+03:00
 .. tags: random
 .. category: everything
-.. link: 
 .. description: Вступление
 .. type: text
 -->
