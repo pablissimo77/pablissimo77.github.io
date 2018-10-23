@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d0c6183-18e5-4d66-b72e-aad1a9a3d1d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/posts/2018/10/color-font-in-restructuredtext.rst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/2018/10/pervyi-post.md" beforeDir="false" afterPath="$PROJECT_DIR$/posts/2018/10/pervyi-post.md" afterDir="false" />
-    </list>
+    <list default="true" id="4d0c6183-18e5-4d66-b72e-aad1a9a3d1d9" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +14,11 @@
         <counts>
           <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -57,6 +51,11 @@
           <entry key="ReST" value="1652" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.compare" value="1" />
+        </counts>
+      </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
@@ -66,7 +65,7 @@
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="120">
-                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+                <caret line="8" selection-start-line="8" selection-end-line="8" />
               </first_editor>
               <second_editor>
                 <markdownNavigatorState />
@@ -75,16 +74,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/posts/2018/10/color-font-in-restructuredtext.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14178">
-              <caret line="1240" column="20" selection-start-line="1240" selection-start-column="20" selection-end-line="1240" selection-end-column="20" />
+            <state relative-caret-position="166">
+              <caret line="659" column="19" selection-start-line="659" selection-start-column="19" selection-end-line="659" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -95,6 +94,7 @@
     <findStrings>
       <find>rst</find>
       <find>more</find>
+      <find>github</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -183,7 +183,7 @@
     <frame x="-3" y="0" width="1372" height="740" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07594936" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19657484" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -193,9 +193,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6440804" visible="true" weight="0.27347612" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6433358" visible="true" weight="0.27347612" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.35591957" side_tool="true" visible="true" weight="0.27347612" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.35666418" side_tool="true" visible="true" weight="0.27347612" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -235,18 +235,11 @@
     <entry file="file://$PROJECT_DIR$/.doit.db">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14178">
-          <caret line="1240" column="20" selection-start-line="1240" selection-start-column="20" selection-end-line="1240" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/posts/2018/10/pervyi-post.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="120">
-            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor>
             <markdownNavigatorState />
@@ -266,6 +259,13 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="restructured-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="659" column="19" selection-start-line="659" selection-start-column="19" selection-end-line="659" selection-end-column="19" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
