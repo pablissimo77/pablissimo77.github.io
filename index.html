@@ -92,46 +92,8 @@
 но он немного меня разочаровал (нельзя делать сложные таблицы, раскрашивать текст и др.).</p>
 <p>Значит решено, будем делать документацию в <a class="reference external" href="https://readthedocs.org/">ReadTheDocs</a>, а значить язык разметки теперь будет <tt class="docutils literal">reStructuredText</tt>.
 Таблицы тут можно делать несколькими <a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#tables">способами</a>: разметкой, немного напоминающией <tt class="docutils literal">Markdown</tt> и директивами "<strong>csv-table</strong>", "<strong>list-table</strong>"</p>
-<p>Но и здесь я столкнулся с проблемой раскраски текста. Теперь, после пары часов гугла, я использую такой вариант
-(без создания или редактирования внешних <tt class="docutils literal">css</tt> файлов, всё в одном документе <tt class="docutils literal">.rst</tt>):</p>
-<p>В начале документы прописываем директивы <tt class="docutils literal">role</tt>:</p>
-<pre class="code text"><a name="rest_code_0c6f9cf7a09b47b58076b99d3ef9f12e-1"></a>.. role:: red
-<a name="rest_code_0c6f9cf7a09b47b58076b99d3ef9f12e-2"></a>.. role:: green
-<a name="rest_code_0c6f9cf7a09b47b58076b99d3ef9f12e-3"></a>.. role:: blue
-</pre>
-<p>Далее директивой <tt class="docutils literal">raw</tt> вставляем в html файл, который будет генерится кусок кода со стилями:</p>
-<pre class="code text"><a name="rest_code_99765ef023224a069f2fa01fdf5ff7d4-1"></a>.. raw:: html
-<a name="rest_code_99765ef023224a069f2fa01fdf5ff7d4-2"></a>
-<a name="rest_code_99765ef023224a069f2fa01fdf5ff7d4-3"></a>    &lt;style&gt;
-<a name="rest_code_99765ef023224a069f2fa01fdf5ff7d4-4"></a>     .red {color:red; font-weight: bold}
-<a name="rest_code_99765ef023224a069f2fa01fdf5ff7d4-5"></a>     .green {color:green; font-weight: bold}
-<a name="rest_code_99765ef023224a069f2fa01fdf5ff7d4-6"></a>     .blue {color:blue; font-weight: bold}
-<a name="rest_code_99765ef023224a069f2fa01fdf5ff7d4-7"></a>    &lt;/style&gt;
-</pre>
-<p>Я ещё добавил и жирное начертание. Стили можно использовать на свой вкус :)</p>
-<p>И теперь в любом месте можно использовать любой стиль:</p>
-<pre class="code text"><a name="rest_code_93aab62f04d448c58c279d9cf2ce921c-1"></a>Выглядит это так: :red:`красный`,  :green:`зеленый`, :blue:`синий`.
-</pre>
-<p>Выглядит это так: <span class="red">красный</span>,  <span class="green">зеленый</span>, <span class="blue">синий</span>.</p>
-<div class="admonition important">
-<p class="first admonition-title">Важно</p>
-<p class="last">Практика показала, что такой метод работает для для раскрашивания текста в ячейках таблиц, построенных с помощью "<strong>list-table</strong>", но не работает с "<strong>csv-table</strong>"</p>
-</div>
-<p>Итого, весь файл .rst</p>
-<pre class="code text"><a name="rest_code_32065cf0c50e46439f0c3155fd297853-1"></a>.. role:: red
-<a name="rest_code_32065cf0c50e46439f0c3155fd297853-2"></a>.. role:: green
-<a name="rest_code_32065cf0c50e46439f0c3155fd297853-3"></a>.. role:: blue
-<a name="rest_code_32065cf0c50e46439f0c3155fd297853-4"></a>
-<a name="rest_code_32065cf0c50e46439f0c3155fd297853-5"></a>.. raw:: html
-<a name="rest_code_32065cf0c50e46439f0c3155fd297853-6"></a>
-<a name="rest_code_32065cf0c50e46439f0c3155fd297853-7"></a>    &lt;style&gt;
-<a name="rest_code_32065cf0c50e46439f0c3155fd297853-8"></a>     .red {color:red; font-weight: bold}
-<a name="rest_code_32065cf0c50e46439f0c3155fd297853-9"></a>     .green {color:green; font-weight: bold}
-<a name="rest_code_32065cf0c50e46439f0c3155fd297853-10"></a>     .blue {color:blue; font-weight: bold}
-<a name="rest_code_32065cf0c50e46439f0c3155fd297853-11"></a>    &lt;/style&gt;
-<a name="rest_code_32065cf0c50e46439f0c3155fd297853-12"></a>
-<a name="rest_code_32065cf0c50e46439f0c3155fd297853-13"></a>Выглядит это так: :red:`красный`,  :green:`зеленый`, :blue:`синий`.
-</pre>
+<p>Но и здесь я столкнулся с проблемой раскраски текста. Теперь, после пары часов гугла, я использую такой вариант</p>
+<p class="more"><a href="posts/2018/10/color-font-in-restructuredtext/">Читать далее…</a></p>
 </div>
     </div>
     </article><article class="h-entry post-text" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title"><a href="posts/2018/10/pervyi-post/" class="u-url">Первый пост</a></h1>

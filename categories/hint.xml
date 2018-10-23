@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pablissimo77's site (Записи о hint)</title><link>https://pablissimo77.site/</link><description></description><atom:link href="https://pablissimo77.site/categories/hint.xml" rel="self" type="application/rss+xml"></atom:link><language>ru</language><copyright>Contents © 2018 &lt;a href="mailto:pablissimo77@gmail.com"&gt;pablissimo77&lt;/a&gt; </copyright><lastBuildDate>Tue, 23 Oct 2018 08:52:27 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Как раскрасить текст в reStructuredText</title><link>https://pablissimo77.site/posts/2018/10/color-font-in-restructuredtext/</link><dc:creator>pablissimo77</dc:creator><description>&lt;div&gt;&lt;style&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pablissimo77's site (Записи о hint)</title><link>https://pablissimo77.site/</link><description></description><atom:link href="https://pablissimo77.site/categories/hint.xml" rel="self" type="application/rss+xml"></atom:link><language>ru</language><copyright>Contents © 2018 &lt;a href="mailto:pablissimo77@gmail.com"&gt;pablissimo77&lt;/a&gt; </copyright><lastBuildDate>Tue, 23 Oct 2018 09:29:01 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Как раскрасить текст в reStructuredText</title><link>https://pablissimo77.site/posts/2018/10/color-font-in-restructuredtext/</link><dc:creator>pablissimo77</dc:creator><description>&lt;div&gt;&lt;style&gt;
  .red {color:red; font-weight: bold}
  .green {color:green; font-weight: bold}
  .blue {color:blue; font-weight: bold}
@@ -8,40 +8,5 @@
 но он немного меня разочаровал (нельзя делать сложные таблицы, раскрашивать текст и др.).&lt;/p&gt;
 &lt;p&gt;Значит решено, будем делать документацию в &lt;a class="reference external" href="https://readthedocs.org/"&gt;ReadTheDocs&lt;/a&gt;, а значить язык разметки теперь будет &lt;tt class="docutils literal"&gt;reStructuredText&lt;/tt&gt;.
 Таблицы тут можно делать несколькими &lt;a class="reference external" href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html#tables"&gt;способами&lt;/a&gt;: разметкой, немного напоминающией &lt;tt class="docutils literal"&gt;Markdown&lt;/tt&gt; и директивами "&lt;strong&gt;csv-table&lt;/strong&gt;", "&lt;strong&gt;list-table&lt;/strong&gt;"&lt;/p&gt;
-&lt;p&gt;Но и здесь я столкнулся с проблемой раскраски текста. Теперь, после пары часов гугла, я использую такой вариант
-(без создания или редактирования внешних &lt;tt class="docutils literal"&gt;css&lt;/tt&gt; файлов, всё в одном документе &lt;tt class="docutils literal"&gt;.rst&lt;/tt&gt;):&lt;/p&gt;
-&lt;p&gt;В начале документы прописываем директивы &lt;tt class="docutils literal"&gt;role&lt;/tt&gt;:&lt;/p&gt;
-&lt;pre class="code text"&gt;&lt;a name="rest_code_0c6f9cf7a09b47b58076b99d3ef9f12e-1"&gt;&lt;/a&gt;.. role:: red
-&lt;a name="rest_code_0c6f9cf7a09b47b58076b99d3ef9f12e-2"&gt;&lt;/a&gt;.. role:: green
-&lt;a name="rest_code_0c6f9cf7a09b47b58076b99d3ef9f12e-3"&gt;&lt;/a&gt;.. role:: blue
-&lt;/pre&gt;&lt;p&gt;Далее директивой &lt;tt class="docutils literal"&gt;raw&lt;/tt&gt; вставляем в html файл, который будет генерится кусок кода со стилями:&lt;/p&gt;
-&lt;pre class="code text"&gt;&lt;a name="rest_code_99765ef023224a069f2fa01fdf5ff7d4-1"&gt;&lt;/a&gt;.. raw:: html
-&lt;a name="rest_code_99765ef023224a069f2fa01fdf5ff7d4-2"&gt;&lt;/a&gt;
-&lt;a name="rest_code_99765ef023224a069f2fa01fdf5ff7d4-3"&gt;&lt;/a&gt;    &amp;lt;style&amp;gt;
-&lt;a name="rest_code_99765ef023224a069f2fa01fdf5ff7d4-4"&gt;&lt;/a&gt;     .red {color:red; font-weight: bold}
-&lt;a name="rest_code_99765ef023224a069f2fa01fdf5ff7d4-5"&gt;&lt;/a&gt;     .green {color:green; font-weight: bold}
-&lt;a name="rest_code_99765ef023224a069f2fa01fdf5ff7d4-6"&gt;&lt;/a&gt;     .blue {color:blue; font-weight: bold}
-&lt;a name="rest_code_99765ef023224a069f2fa01fdf5ff7d4-7"&gt;&lt;/a&gt;    &amp;lt;/style&amp;gt;
-&lt;/pre&gt;&lt;p&gt;Я ещё добавил и жирное начертание. Стили можно использовать на свой вкус :)&lt;/p&gt;
-&lt;p&gt;И теперь в любом месте можно использовать любой стиль:&lt;/p&gt;
-&lt;pre class="code text"&gt;&lt;a name="rest_code_93aab62f04d448c58c279d9cf2ce921c-1"&gt;&lt;/a&gt;Выглядит это так: :red:`красный`,  :green:`зеленый`, :blue:`синий`.
-&lt;/pre&gt;&lt;p&gt;Выглядит это так: &lt;span class="red"&gt;красный&lt;/span&gt;,  &lt;span class="green"&gt;зеленый&lt;/span&gt;, &lt;span class="blue"&gt;синий&lt;/span&gt;.&lt;/p&gt;
-&lt;div class="admonition important"&gt;
-&lt;p class="first admonition-title"&gt;Важно&lt;/p&gt;
-&lt;p class="last"&gt;Практика показала, что такой метод работает для для раскрашивания текста в ячейках таблиц, построенных с помощью "&lt;strong&gt;list-table&lt;/strong&gt;", но не работает с "&lt;strong&gt;csv-table&lt;/strong&gt;"&lt;/p&gt;
-&lt;/div&gt;
-&lt;p&gt;Итого, весь файл .rst&lt;/p&gt;
-&lt;pre class="code text"&gt;&lt;a name="rest_code_32065cf0c50e46439f0c3155fd297853-1"&gt;&lt;/a&gt;.. role:: red
-&lt;a name="rest_code_32065cf0c50e46439f0c3155fd297853-2"&gt;&lt;/a&gt;.. role:: green
-&lt;a name="rest_code_32065cf0c50e46439f0c3155fd297853-3"&gt;&lt;/a&gt;.. role:: blue
-&lt;a name="rest_code_32065cf0c50e46439f0c3155fd297853-4"&gt;&lt;/a&gt;
-&lt;a name="rest_code_32065cf0c50e46439f0c3155fd297853-5"&gt;&lt;/a&gt;.. raw:: html
-&lt;a name="rest_code_32065cf0c50e46439f0c3155fd297853-6"&gt;&lt;/a&gt;
-&lt;a name="rest_code_32065cf0c50e46439f0c3155fd297853-7"&gt;&lt;/a&gt;    &amp;lt;style&amp;gt;
-&lt;a name="rest_code_32065cf0c50e46439f0c3155fd297853-8"&gt;&lt;/a&gt;     .red {color:red; font-weight: bold}
-&lt;a name="rest_code_32065cf0c50e46439f0c3155fd297853-9"&gt;&lt;/a&gt;     .green {color:green; font-weight: bold}
-&lt;a name="rest_code_32065cf0c50e46439f0c3155fd297853-10"&gt;&lt;/a&gt;     .blue {color:blue; font-weight: bold}
-&lt;a name="rest_code_32065cf0c50e46439f0c3155fd297853-11"&gt;&lt;/a&gt;    &amp;lt;/style&amp;gt;
-&lt;a name="rest_code_32065cf0c50e46439f0c3155fd297853-12"&gt;&lt;/a&gt;
-&lt;a name="rest_code_32065cf0c50e46439f0c3155fd297853-13"&gt;&lt;/a&gt;Выглядит это так: :red:`красный`,  :green:`зеленый`, :blue:`синий`.
-&lt;/pre&gt;&lt;/div&gt;</description><category>hint</category><category>reStructuredText</category><guid>https://pablissimo77.site/posts/2018/10/color-font-in-restructuredtext/</guid><pubDate>Tue, 23 Oct 2018 07:18:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;Но и здесь я столкнулся с проблемой раскраски текста. Теперь, после пары часов гугла, я использую такой вариант&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://pablissimo77.site/posts/2018/10/color-font-in-restructuredtext/"&gt;Читать далее…&lt;/a&gt; (1 минут чтения осталось)&lt;/p&gt;&lt;/div&gt;</description><category>hint</category><category>reStructuredText</category><guid>https://pablissimo77.site/posts/2018/10/color-font-in-restructuredtext/</guid><pubDate>Tue, 23 Oct 2018 07:18:00 GMT</pubDate></item></channel></rss>
