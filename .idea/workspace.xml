@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d0c6183-18e5-4d66-b72e-aad1a9a3d1d9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/files/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/2018/10/color-font-in-restructuredtext.rst" beforeDir="false" afterPath="$PROJECT_DIR$/posts/2018/10/color-font-in-restructuredtext.rst" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +28,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="CNAME" value="1" />
           <entry key="db" value="1" />
           <entry key="gitignore" value="1" />
           <entry key="md" value="2" />
@@ -35,7 +39,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="PLAIN_TEXT" value="3" />
           <entry key="Python" value="1" />
           <entry key="ReST" value="1" />
         </counts>
@@ -44,16 +48,16 @@
         <counts>
           <entry key="gitignore" value="19" />
           <entry key="md" value="249" />
-          <entry key="py" value="18" />
-          <entry key="rst" value="1652" />
+          <entry key="py" value="23" />
+          <entry key="rst" value="1656" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Markdown" value="249" />
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="18" />
-          <entry key="ReST" value="1652" />
+          <entry key="Python" value="23" />
+          <entry key="ReST" value="1656" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -84,16 +88,16 @@
           <provider selected="true" editor-type-id="restructured-text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/conf.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="656" column="29" lean-forward="true" selection-start-line="656" selection-start-column="29" selection-end-line="656" selection-end-column="29" />
+            <state relative-caret-position="181">
+              <caret line="1132" column="20" lean-forward="true" selection-start-line="1132" selection-start-column="20" selection-end-line="1132" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
@@ -109,6 +113,8 @@
       <find>rst</find>
       <find>more</find>
       <find>github</find>
+      <find>tease</find>
+      <find>source</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -118,10 +124,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/posts/2018/10/color-font-in-restructuredtext.md" />
-        <option value="$PROJECT_DIR$/conf.py" />
         <option value="$PROJECT_DIR$/posts/2018/10/pervyi-post.md" />
-        <option value="$PROJECT_DIR$/posts/2018/10/color-font-in-restructuredtext.rst" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/files/CNAME" />
+        <option value="$PROJECT_DIR$/posts/2018/10/color-font-in-restructuredtext.rst" />
+        <option value="$PROJECT_DIR$/conf.py" />
       </list>
     </option>
   </component>
@@ -144,20 +151,7 @@
             <path>
               <item name="pablissimo77site" type="b2602c69:ProjectViewProjectNode" />
               <item name="pablissimo77site" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pablissimo77site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pablissimo77site" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pablissimo77site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pablissimo77site" type="462c0819:PsiDirectoryNode" />
-              <item name="posts" type="462c0819:PsiDirectoryNode" />
-              <item name="2018" type="462c0819:PsiDirectoryNode" />
-              <item name="10" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,7 +192,7 @@
     <frame x="-3" y="0" width="1372" height="740" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19657484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16157855" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -250,15 +244,17 @@
     <entry file="file://$PROJECT_DIR$/.doit.db">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/posts/2018/10/pervyi-post.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
+    <entry file="file://$PROJECT_DIR$/files/CNAME">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -275,17 +271,22 @@
       </provider>
       <provider selected="true" editor-type-id="restructured-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="656" column="29" lean-forward="true" selection-start-line="656" selection-start-column="29" selection-end-line="656" selection-end-column="29" />
+    <entry file="file://$PROJECT_DIR$/posts/2018/10/pervyi-post.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/conf.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        <state relative-caret-position="181">
+          <caret line="1132" column="20" lean-forward="true" selection-start-line="1132" selection-start-column="20" selection-end-line="1132" selection-end-column="20" />
         </state>
       </provider>
     </entry>
