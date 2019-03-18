@@ -2,10 +2,113 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d0c6183-18e5-4d66-b72e-aad1a9a3d1d9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/files/CNAME" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/markdown-navigator/profiles_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pablissimo77site.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pablissimo77site.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_build/html/.doctrees/posts/2018/10/color-font-in-restructuredtext.doctree" beforeDir="false" afterPath="$PROJECT_DIR$/_build/html/.doctrees/posts/2018/10/color-font-in-restructuredtext.doctree" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf.py" beforeDir="false" afterPath="$PROJECT_DIR$/conf.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/files/CNAME" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/posts/2018/10/color-font-in-restructuredtext.rst" beforeDir="false" afterPath="$PROJECT_DIR$/posts/2018/10/color-font-in-restructuredtext.rst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/posts/2018/10/pervyi-post.md" beforeDir="false" afterPath="$PROJECT_DIR$/posts/2018/10/pervyi-post.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/assets/css/bootstrap-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/assets/css/bootstrap-responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/assets/css/bootstrap-responsive.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/assets/css/bootstrap-responsive.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/assets/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/assets/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/assets/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/assets/img/glyphicons-halflings-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/assets/img/glyphicons-halflings-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/assets/img/glyphicons-halflings.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/assets/img/glyphicons-halflings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/assets/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/assets/js/bootstrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/assets/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/assets/js/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/assets/js/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/assets/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/assets/js/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/assets/js/jquery.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/bootstrap.theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/bootstrap.theme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/bundles" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/bundles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/engine" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/engine" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/parent" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/parent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/templates/base.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/templates/base.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/templates/base_helper.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/templates/base_helper.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/templates/crumbs.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/templates/crumbs.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/templates/gallery.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/templates/gallery.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/templates/listing.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/templates/listing.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/templates/post.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/templates/post.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/templates/tags.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/templates/tags.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap/templates/ui_helper.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap/templates/ui_helper.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/assets/css/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/assets/css/bootstrap-theme.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/assets/css/bootstrap-theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/assets/css/bootstrap-theme.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/assets/css/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/assets/css/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/assets/css/bootstrap.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/assets/css/bootstrap.min.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/assets/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/assets/fonts/glyphicons-halflings-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/assets/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/assets/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/assets/fonts/glyphicons-halflings-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/assets/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/assets/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/assets/js/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/assets/js/bootstrap.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/assets/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/assets/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/assets/js/jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/assets/js/jquery.min.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/bootstrap3.theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/bootstrap3.theme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/bundles" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/bundles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/templates/authors.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/templates/authors.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/templates/base.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/templates/base.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/templates/base_helper.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/templates/base_helper.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/templates/crumbs.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/templates/crumbs.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/templates/gallery.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/templates/gallery.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/templates/listing.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/templates/listing.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/templates/pagination_helper.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/templates/pagination_helper.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/templates/post.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/templates/post.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/templates/slides.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/templates/slides.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/templates/tags.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/templates/tags.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/bootstrap3/templates/ui_helper.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/bootstrap3/templates/ui_helper.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/planetoid/AUTHORS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/themes/planetoid/AUTHORS.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/planetoid/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/planetoid/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/planetoid/parent" beforeDir="false" afterPath="$PROJECT_DIR$/themes/planetoid/parent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/planetoid/planetoid.theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/planetoid/planetoid.theme" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/planetoid/templates/index.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/planetoid/templates/index.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/planetoid/templates/post.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/planetoid/templates/post.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/AUTHORS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/AUTHORS.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/assets/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/assets/css/theme.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/assets/images/blue-mocha-grunge.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/assets/images/blue-mocha-grunge.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/assets/images/cream-dust.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/assets/images/cream-dust.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/assets/images/glyphicons-halflings-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/assets/images/glyphicons-halflings-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/assets/images/glyphicons-halflings.png" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/assets/images/glyphicons-halflings.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/assets/js/jquery-1.10.2.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/assets/js/jquery-1.10.2.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/assets/js/jquery.timeago.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/assets/js/jquery.timeago.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/bundles" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/bundles" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/conf.py.sample" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/conf.py.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/blog-mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/blog-mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/blog.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/blog.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/code.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/code.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/layout.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/layout.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/lists.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/lists.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/mixins.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/mixins.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/pager.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/pager.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/pagination.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/pagination.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/prettify.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/prettify.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/reset.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/reset.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/targets" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/theme.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/theme.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/thumbnails.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/thumbnails.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/type.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/type.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/less/variables.less" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/less/variables.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/parent" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/parent" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/templates/base.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/templates/base.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/templates/base_header.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/templates/base_header.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/templates/base_helper.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/templates/base_helper.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/templates/index.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/templates/index.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/templates/post.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/templates/post.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/templates/post_header.tmpl" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/templates/post_header.tmpl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/zen/zen.theme" beforeDir="false" afterPath="$PROJECT_DIR$/themes/zen/zen.theme" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,97 +116,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="32860484">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="5" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="CNAME" value="1" />
-          <entry key="db" value="1" />
-          <entry key="gitignore" value="1" />
-          <entry key="md" value="2" />
-          <entry key="py" value="1" />
-          <entry key="rst" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="Markdown" value="2" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="1" />
-          <entry key="ReST" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="gitignore" value="19" />
-          <entry key="md" value="249" />
-          <entry key="py" value="23" />
-          <entry key="rst" value="1656" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Markdown" value="249" />
-          <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="23" />
-          <entry key="ReST" value="1656" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages">
-        <counts>
-          <entry key="git.branch.compare" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/posts/2018/10/pervyi-post.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="120">
-                <caret line="8" selection-start-line="8" selection-end-line="8" />
-              </first_editor>
-              <second_editor>
-                <markdownNavigatorState />
-              </second_editor>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/posts/2018/10/color-font-in-restructuredtext.rst">
           <provider selected="true" editor-type-id="restructured-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/conf.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="1132" column="20" lean-forward="true" selection-start-line="1132" selection-start-column="20" selection-end-line="1132" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -133,14 +150,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="683" />
-    <option name="height" value="368" />
+    <option name="x" value="-1" />
+    <option name="width" value="1368" />
+    <option name="height" value="738" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,13 +170,25 @@
             <path>
               <item name="pablissimo77site" type="b2602c69:ProjectViewProjectNode" />
               <item name="pablissimo77site" type="462c0819:PsiDirectoryNode" />
-              <item name="files" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pablissimo77site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pablissimo77site" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pablissimo77site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pablissimo77site" type="462c0819:PsiDirectoryNode" />
+              <item name="posts" type="462c0819:PsiDirectoryNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+              <item name="10" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -189,12 +220,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="0" width="1372" height="740" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="-1" width="1920" height="1044" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16157855" />
+      <window_info id="DB Browser" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16974169" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="DB Execution Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -202,9 +234,9 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6433358" visible="true" weight="0.27347612" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.6420664" visible="true" weight="0.27282608" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.35666418" side_tool="true" visible="true" weight="0.27347612" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.35793358" side_tool="true" visible="true" weight="0.27282608" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -236,9 +268,20 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.doit.db">
@@ -248,6 +291,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/posts/2018/10/pervyi-post.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor>
+            <markdownNavigatorState />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="206" column="28" selection-start-line="206" selection-start-column="28" selection-end-line="206" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -270,25 +332,6 @@
         </state>
       </provider>
       <provider selected="true" editor-type-id="restructured-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/posts/2018/10/pervyi-post.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor>
-            <markdownNavigatorState />
-          </second_editor>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="1132" column="20" lean-forward="true" selection-start-line="1132" selection-start-column="20" selection-end-line="1132" selection-end-column="20" />
-        </state>
-      </provider>
     </entry>
   </component>
 </project>
