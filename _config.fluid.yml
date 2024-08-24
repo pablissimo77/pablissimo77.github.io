@@ -461,7 +461,7 @@ index:
   # 头图高度，屏幕百分比
   # Height ratio of banner image
   # Available: 0 - 100
-  banner_img_height: 5
+  banner_img_height: 20
 
   # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
   # Opacity of the banner mask, 1.0 is completely opaque
@@ -471,7 +471,7 @@ index:
   # 首页副标题的独立设置
   # Independent config of home page subtitle
   slogan:
-    enable: true
+    enable: false
 
     # 为空则按 hexo config.subtitle 显示
     # If empty, text based on `subtitle` in hexo config
