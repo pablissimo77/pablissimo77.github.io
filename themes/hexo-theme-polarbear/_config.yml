@@ -30,12 +30,12 @@ menu:
 #   content: Add your html code in here. Example: <p>testing...</p>
 widget:
   Tags: true
-  Categories: false
+  Categories: true
   Custom: false
 
 widget_custom:
-    title: Test
-    content: <p>testing...</p>
+#    title: Test
+#    content: <p>testing...</p>
 
 # ===========================================
 # Theme Settings
