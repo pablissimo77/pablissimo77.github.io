@@ -1,31 +1,27 @@
 header:
-  favicon: /favicon.ico # 支持使用url
+  favicon: /favicon.ico
   version: '1.2'
 footer:
-  copyright: 阿巴阿巴
-  beian: 冀ICP备00000000号
+  copyright: copyright
+  beian: beian
 
-# 文章作者列表，文章中未设置时默认选择第一项
-authors: 
+authors:
   anonymous: /img/default.png
-  阿巴阿巴: /img/abaaba.png
+  pablissimo77: /img/abaaba.png
 
-# 顶部菜单
 menus: 
-  首页: /
-  归档: /archives
-  分类: /categories
-  标签: /tags
-  友链: /friends
-  相关链接:
-    文章: /2020/07/16/3a6087ce/
-    百度一下你就知道: https://www.baidu.com
-  关于: /about
+  index: /
+  archives: /archives
+  categories: /categories
+  tags: /tags
+  friends: /friends
+  what:
+    what1: /2020/07/16/3a6087ce/
+    what2: https://www.baidu.com
+  about: /about
 
-# 跳页标签显示个数，建议为奇数（对称）
 page_show: 5
 
-# 代码高亮样式
 # a11y-dark, a11y-light, agate, androidstudio, an-old-hope, arduino-light, arta, ascetic,
 # atelier-cave-dark, atelier-dune-dark, atelier-estuary-dark, atelier-forest-dark, atelier-heath-dark,
 # atelier-lakeside-dark, atelier-plateau-dark, atelier-savanna-dark, atelier-seaside-dark, atelier-sulphurpool-dark,
@@ -39,9 +35,8 @@ page_show: 5
 hlcss: lioshi
 
 toc:
-  list_number: true # 文章目录是否显示编号
+  list_number: true
 
-# 文章底部版权声明信息
 copyright:
   enable: true
   content: # permalink会被替换为root/_config.yml中配置的url域名的当前页面连接
