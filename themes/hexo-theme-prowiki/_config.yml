@@ -39,7 +39,7 @@ page_show: 5
 hlcss: lioshi
 
 toc:
-  list_number: false # 文章目录是否显示编号
+  list_number: true # 文章目录是否显示编号
 
 # 文章底部版权声明信息
 copyright:

@@ -99,7 +99,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-polarbear
+theme: hexo-theme-prowiki
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
