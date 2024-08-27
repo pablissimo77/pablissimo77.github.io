@@ -32,9 +32,6 @@ importers:
       hexo-renderer-stylus:
         specifier: ^3.0.0
         version: 3.0.0
-      hexo-renderer-scss:
-        specifier: ^1.2.0
-        version: 1.2.0
       hexo-server:
         specifier: ^3.0.0
         version: 3.0.0
