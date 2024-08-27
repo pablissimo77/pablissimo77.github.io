@@ -1,0 +1,32 @@
+extends ../_partial/layout
+
+block content
+  .container
+    - const postsByYear = {};
+    - // 按年份将文章分组
+    - for (let i = 0; i < site.posts.data.length; i++) {
+    -   const post = site.posts.data[i];
+    -   if (!page.year || post.date.year() === page.year) {
+    -     const year = post.date.year();
+    -     if (!postsByYear[year]) {
+    -       postsByYear[year] = [];
+    -     }
+    -     postsByYear[year].push(post);
+    -   }
+    - }
+    - // 按年份倒序排序并返回结果
+    - const sortedYears = Object.keys(postsByYear).sort((a, b) => b - a);
+    - const sortedPosts = sortedYears.map(year => [year, postsByYear[year]]);
+    each group in sortedPosts
+      .year-wrap
+        .year
+          a.title(href=url_for(config.archive_dir + '/' + group[0]))= group[0]
+      .archives
+        each post in group[1]
+          .post-archive
+            .post-archive__content
+              .post-archive__month= time(post.date, 'MM月')
+              .post-archive__body
+                a.post-archive__title(href=url_for(post.path))= post.title || '未命名'
+                .post-archive__excerpt
+                  .post-archive__excerpt-content!= post.excerpt

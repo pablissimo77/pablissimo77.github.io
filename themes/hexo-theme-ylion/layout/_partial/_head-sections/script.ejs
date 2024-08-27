@@ -1,0 +1,42 @@
+<!--script-->
+<%
+var _leancloud = theme.leancloud_src || '/js/thirdParty/leancloud.min.js';
+var _busuanzi = theme.busuanzi_src || '/js/thirdParty/busuanzi.min.js';
+%>
+<% if(theme.leancloud && theme.leancloud.enable && theme.leancloud.app_id && theme.leancloud.app_key){ %>
+<%- js(_leancloud) %>
+<script>
+  var appId = "<%- theme.leancloud.app_id %>";
+  var appKey = "<%- theme.leancloud.app_key %>";
+  var region = "<%= theme.leancloud.region %>";
+  var serverURLs = "<%= theme.leancloud.serverURLs %>";
+  AV.init({
+    appId: appId,
+    appKey: appKey,
+    region: region,
+    serverURLs: serverURLs
+  });
+</script>
+<% } %>
+<% if(theme.visits_count.enable){ %>
+<script async src="<%- url_for(_busuanzi) %>"></script>
+<% } %>
+
+<% if(theme.gitalk.enable && is_post()){ %>
+<script src="<%= theme.gitalk.js %>"></script>
+
+<script>
+  var admin = "<%= theme.gitalk.admin %>";
+  admin = admin.split(",");
+  var gitalk = new Gitalk({
+    clientID: "<%= theme.gitalk.clientID %>",
+    clientSecret: "<%= theme.gitalk.clientSecret %>",
+    repo: "<%= theme.gitalk.repo %>",
+    owner: "<%= theme.gitalk.owner %>",
+    admin: admin,
+    id: decodeURIComponent(location.pathname),
+    distractionFreeMode: <%= theme.gitalk.distractionFreeMode %>
+  })
+
+</script>
+<% } %>
