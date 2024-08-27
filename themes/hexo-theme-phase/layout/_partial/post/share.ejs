@@ -1,0 +1,9 @@
+<% if (theme.addtoany.enable) { %>
+  <div class="social-like a2a_kit a2a_kit_size_32 a2a_default_style">
+    <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+    <% theme.addtoany.buttons.forEach(function(button) { %>
+      <a class="a2a_button_<%= button %>"></a>
+      <% }); %>
+  </div>
+  <script src="https://static.addtoany.com/menu/page.js"></script>
+<% } %>
