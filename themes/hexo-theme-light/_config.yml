@@ -2,6 +2,8 @@ menu:
   Home:
   Archives: archives
 
+lang: ru
+
 widgets:
 - search
 - category
@@ -20,7 +22,7 @@ fancybox: true
 google_analytics:
 rss:
 
-comment_provider: facebook
+comment_provider:
 # Disqus comment
 disqus_shortname:
 # Facebook comment
