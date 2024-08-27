@@ -24,6 +24,6 @@
     "hexo-theme-landscape": "^1.0.0"
   },
   "devDependencies": {
-    "hexo-theme-fluid": "^1.9.7"
+
   }
 }

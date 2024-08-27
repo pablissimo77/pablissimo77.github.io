@@ -39,9 +39,7 @@ importers:
         specifier: ^1.0.0
         version: 1.0.0
     devDependencies:
-      hexo-theme-fluid:
-        specifier: ^1.9.7
-        version: 1.9.7(nunjucks@3.2.4(chokidar@3.5.3))
+
 
 packages:
 
