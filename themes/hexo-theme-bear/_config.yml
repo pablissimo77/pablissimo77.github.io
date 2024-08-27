@@ -30,9 +30,9 @@ socials:
 
 # display widgets at the bottom of index pages (pagination == 2)
 index_widgets:
-# - category
-# - tagcloud
-# - archive
+  category: true
+  tagcloud: true
+  archive: true
 
 #主题方案
 highlight_theme: atom light
@@ -44,10 +44,10 @@ show_count: false
 disqus_shortname:
 
 # Miscellaneous
-google_analytics: 'UA-61220413-1'
+google_analytics: ''
 gauges_analytics:
-favicon: /images/avatar.png
-avatar: "/images/avatar.png"
+favicon:
+avatar: ""
 twitter:
 google_plus:
 fb_admins:
