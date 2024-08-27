@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-yet-the-books
+theme: hexo-theme-freemind
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
