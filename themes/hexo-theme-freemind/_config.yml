@@ -1,7 +1,7 @@
 slogan: "Yet another bootstrap theme."
 
-theme: cerulean
-inverse: true
+theme: bootstrap
+inverse: false
 # whether to show h2 and h3 titles in excerpts
 show_title_in_excerpt: false
 
@@ -28,18 +28,11 @@ links:
     url: https://github.com/wzpan/freemind/
     intro: "Freemind's Github repository."
     icon: "fa fa-github"
-  - title: "My Github"
-    url: http://www.github.com/wzpan
-    intro: "My Github account."
-    icon: "fa fa-github"
-  - title: "My LinkedIn"
-    url: http://www.linkedin.com/in/hahack
-    intro: "My Linkin account."
-    icon: "fa fa-linkedin"
+
 
 widgets:
 - search
-- recent_comments
+#- recent_comments
 - category
 - tagcloud
 - recent_posts
@@ -68,7 +61,7 @@ baidu_tongji:
 # swiftype_key: ZP2ZSuHgipSZfRyU8uTR
 
 # share widgets
-bdshare: true
+bdshare: false
 jiathis: false
 
 # built-in comment system
