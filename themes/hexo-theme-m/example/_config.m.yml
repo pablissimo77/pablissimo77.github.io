@@ -1,5 +1,0 @@
-mdui:
-  drawer_close: false
-
-plugins:
-  pjax: true
