@@ -11,16 +11,16 @@ favicon: /favicon.ico
 show_post_category: true
 show_post_tags: true
 
-active_nav: false # show active status on nav menu
+active_nav: true # show active status on nav menu
 
 sidebar: true # whether to show the sidebar
 widgets:
-  # - category
-  # - tag
-  # - tagcloud
-  # - archive
-  - recent_posts
-  - links
+   - category
+   - tag
+   - tagcloud
+   - archive
+   - recent_posts
+   - links
 links:
   - title: "GitHub"
     url: http://www.github.com/wayou
@@ -30,7 +30,7 @@ links:
     intro: "twitter的本地化版本"
 
 # disqus_shortname: wayou
-duoshuo_shortname: wayouliu
+duoshuo_shortname:
 #site statistic
 google_analytics:  
 # baidu_analytics: 392796d51567e848aebf813b65cb8656
