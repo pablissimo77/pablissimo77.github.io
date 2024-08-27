@@ -1,0 +1,40 @@
+<div class="content">
+	<div class="banner">
+		<div class="container">
+			<h1><%= page.title %></h1>
+			<div class="info"><span class="date"><%- date(page.date, "YYYY年M月D日") %></span>•<%= config.author %> 
+			<% if (page.categories && page.categories.length){ %>
+					《<%- list_categories(page.categories, {
+						show_count: false,
+						class: 'nexmoefont icon-appstore-fill ',
+						style: 'none',
+						separator: ''
+					}) %>》
+				<% } %>
+				<% if (theme.github.repo && theme.github.edit) { %>
+					<a href="<%= 'https://github.com/' + theme.github.repo + '/tree/master/source/' + page.source %>" target="_blank" rel="external nofollow noreferrer noopener">编辑</a>
+				<% } %>
+			</div>
+			
+		</div>
+	</div>
+	<div class="container">
+		<article class="post">
+			<%- page.content %>
+			<br>
+			<%- list_tags(page.tags, {
+				show_count: true,
+				style: "unordered list",
+				separator: ", "
+			}) %>
+		</article>
+	</div>
+	<div class="other">
+		<div class="container">
+			<%- is_post() ? partial('_partial/post-nav') : '' %> 
+		</div>
+	</div>
+	<div class="container comment">
+		<%- theme.comment ? partial('_partial/_comment/' + theme.comment) : '' %>
+	</div>
+</div>

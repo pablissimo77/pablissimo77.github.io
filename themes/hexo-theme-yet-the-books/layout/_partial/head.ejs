@@ -1,0 +1,40 @@
+<%
+var title = page.title;
+
+if (is_archive()){
+    title = __('archive');
+
+    if (is_month()){
+    title += '：' + page.year + '/' + page.month;
+    } else if (is_year()){
+    title += '：' + page.year;
+    }
+} else if (is_category()){
+    title = __('category') + '：' + page.category;
+} else if (is_tag()){
+    title = __('tag') + '：' + page.tag;
+}
+%>
+<title><% if (title){ %><%= title %> - <% } %><%= config.title %></title>
+<meta charset="utf-8" />
+<meta name="keywords" content="<%= config.keywords %>" />
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=5"
+/>
+<%- meta_generator() %>
+<%- css_auto_version('css/style') %>
+<link rel="shortcut icon" href="<%= theme.favicon.href %>" type="<%= theme.favicon.type %>" />
+<link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Noto+Serif+SC&display=swap"
+    media="all"
+/>
+<link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/highlight.js@9.15.8/styles/solarized-light.css"
+/>
+<%- js_auto_version('js/core') %>
+<%- partial('_partial/analytics') %>
+<script src="https://cdn.jsdelivr.net/npm/lazysizes@5.3.1/lazysizes.min.js" async></script>
+<%- theme.head %> 

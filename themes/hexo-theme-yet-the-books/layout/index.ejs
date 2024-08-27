@@ -1,0 +1,43 @@
+<div class="content home">
+	<div class="banner">
+		<div class="container">
+			<h1><%= config.subtitle %></h1>
+			<div class="search">
+				<form id="search_form" action_e="<%= theme.search + "site:" +config.url %>" onsubmit="return search();">
+					<input autocomplete='off' id="search_value" name="q" type="search" placeholder="<%= __('placeholder') %>">
+					<input class="submit" type="submit" value="<%= __('search') %>">
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="category">
+			<% site.categories.sort('length').map(function(category){  %>
+				<% 	let cover = ""
+					let color = "red"
+					category.posts.sort('-date').map(function(post){
+						if(post.cover!==undefined && cover==""){ 
+							cover = post.cover
+						}
+						if(post.color!==undefined && color=="red"){ 
+							color = post.color
+						}
+					}) 
+				%>
+						
+				<%  if(cover == ""){ %> 
+					<a class="category-item" href="<%- url_for(category.path) %>">
+						<div class="cover <%= color %>"><h1><%= category.name %></h1></div>
+						<div class="title"><%= category.name %></div>
+					</a>
+				<% } else { %>
+					<a class="category-item" href="<%- url_for(category.path) %>">
+						<div class="cover"><img  data-sizes="auto"
+							data-src="<%= cover %>" class="lazyload" alt="<%= category.name %>"></div>
+						<div class="title"><%= category.name %></div>
+					</a>
+				<% } %> 
+			<% }) %>
+		</div>
+	</div>
+</div>

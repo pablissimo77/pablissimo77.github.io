@@ -1,0 +1,25 @@
+<div class="content">
+	<div class="banner">
+		<div class="container">
+			<h1>《<%- page.category %>》的目录</h1>
+		</div>
+	</div>
+	<div class="container">
+		<ul class="catalogue">
+			<% 	
+				let order = theme.order_by
+				page.posts.each(function (post) { 
+					if(post.order_by !== null && post.order_by !== undefined){ order = post.order_by }
+				})
+			%>
+			<%  page.posts.sort(order).each(function (post) { %>
+			<li>
+				<a href="<%- url_for(post.path) %>">
+					<span class="title"><%= post.title %></span>
+					<span class="date"><span><%- date(post.date, "YYYY-MM-DD") %></span></span>
+				</a>
+			</li>
+			<% }) %>
+		</ul>
+	</div>
+</div>
