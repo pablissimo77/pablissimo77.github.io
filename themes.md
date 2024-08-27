@@ -2,3 +2,4 @@
 * hexo-theme-light
 * hexo-theme-minima
 * **hexo-theme-mints**
+* hexo-theme-one-paper +/-
