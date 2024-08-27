@@ -1,0 +1,54 @@
+favicon: /img/favicon.png
+
+# Logo Mark
+mark: Peomas
+logo_mark: null
+
+# Scroll button
+scroll_top_btn:
+  enable: true
+
+# NProgress
+nprogress: 
+  enable: true
+  color: "#131313"
+
+# Navigation menu
+menu:
+  Home: /
+  Archives: /archives
+  Category: /categories
+  Tag: /tags
+  About: /about
+
+# Index Page config
+index:
+  enable_sticky: true
+  post_url_target: _self
+  enable_category: true
+  enable_tag: true
+
+# Tag Page config
+tagcloud:
+  min_font: 15
+  max_font: 30
+  unit: px
+  start_color: "#337ab7"
+  end_color: "#0d6efd"
+
+# About Page config
+about:
+  avatar: 
+    enable: true
+    link: /img/avatar.png
+  title: Thomas Yu
+  subTitle: Front-End Developer - Labcorp
+  icon:
+  - { class: "fab fa-github", url: "https://github.com/thomasyu929", info: "Thomas Yu's Github" }
+  - { class: "fas fa-envelope", url: "mailto:yby4301955@gmail.com", info: "Mail to me" }
+  - { class: "fab fa-linkedin", url: "https://linkedin.com", info: "LinkedIn" }
+  - { class: "fas fa-rss", url: "/atom.xml", info: "Subscribe Thomas's blog"}
+
+# Post Page config
+toc:
+  enable: true

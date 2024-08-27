@@ -1,0 +1,31 @@
+# =======================================
+# Theme Setting
+# =======================================
+
+# Nav
+nav:
+  home: /
+  about: /about/
+  archives: /archives/
+  tags: /tags/
+
+# Posts OverView
+posts_overview:
+  show_all: false
+  count: 10
+  sort_updated: false
+
+# Links to your social media.
+social_links:
+  email:
+  github:
+  linkedin:
+  twitter:
+  instagram:
+  youtube:
+
+# Site Create Time
+since:
+
+# Favicon
+favicon: /favicon.ico

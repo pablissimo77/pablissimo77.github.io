@@ -1,0 +1,17 @@
+<header class="shadow-sm bg-white">
+  <div class="flex justify-between mx-auto max-w-3xl py-2">
+    <div class="flex items-center">
+      <div class="w-8 h-8">
+        <a href="/">
+          <img src="/logo.svg" alt="Logo" />
+        </a>
+      </div>
+      <h1 class="ml-4"><%- link_to('/', config.title) %></h1>
+    </div>
+    <ul class="flex items-center justify-end">
+      <% for (var i in theme.nav) { %>
+      <li class="ml-4"><%- link_to(theme.nav[i], __('nav.' + i)) %></li>
+      <% } %>
+    </ul>
+  </div>
+</header>

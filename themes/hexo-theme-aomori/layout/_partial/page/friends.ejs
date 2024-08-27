@@ -1,0 +1,29 @@
+<% site.data.friends.forEach((items) => { %>
+    <div class="friends-category">
+        <div class="friends-category-title">
+            <%= items.category %>
+        </div>
+        <div class="friends-category-inner clearfix">
+            <% items.data.forEach((item) => { %>
+                <a href="<%= item.url %>" rel="nofollow" target="_blank"> <%= item.name %> </a>
+            <% }) %>
+        </div>
+    </div>
+<% }) %>
+
+<% if (post.content){ %>
+<article
+  id="<%= post.layout %>-<%= post._id %>"
+  class="article article-type-<%= post.layout %>"
+>
+    <div class="article-inner">
+        <div class="article-entry post-inner-html">
+            <%- post.content %>
+        </div>
+    </div>
+</article>
+<% } %>
+    
+<% if (post.comment ){ %>
+<%- partial('../post/comments') %>
+<% } %>

@@ -1,0 +1,27 @@
+<header>
+  <div class="outer">
+    <div class="inner">
+      <h1 class="logo-wrap">
+        <a><%= config.title %><b><sup><%- theme.header.version %></sup></b></a>
+      </h1>
+    </div>
+    <div class="inner">
+      <nav class="main-nav">
+        <% for (var key in theme.menus){ %>
+          <% if (typeof(theme.menus[key]) == "object") { %>
+            <div class="dropdown">
+              <a class="dropbtn"><%= key %></a>
+              <div class="dropdown-content">
+                <% for (var val in theme.menus[key]){ %>
+                  <a href="<%- url_for(theme.menus[key][val]) %>"><%= val %></a>
+                <% } %>
+              </div>
+            </div>
+          <% }else{ %>
+            <a href="<%- url_for(theme.menus[key]) %>"><%= key %></a>
+          <% } %>
+        <% } %>
+      </nav>
+    </div>
+  </div>
+</header>

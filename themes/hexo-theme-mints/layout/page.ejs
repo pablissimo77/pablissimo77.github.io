@@ -1,0 +1,20 @@
+<div class="py-8">
+  <% if (page.type === 'about') {%>
+  <div class="flex items-center justify-center mb-8">
+    <h1 class="text-xl font-semibold"><%- __('nav.about') %></h1>
+  </div>
+  <div>
+    <p><%- page.content %></p>
+  </div>
+  <%}%> <% if (page.type === 'tags') { %>
+  <div class="flex items-center justify-center mb-8">
+    <h1 class="text-xl font-semibold"><%- __('nav.tags') %></h1>
+  </div>
+  <h3 class="flex items-center justify-center mb-4">
+    <%= _p('counter.tags', site.tags.length) %>
+  </h3>
+  <div class="tag-cloud">
+    <%- tagcloud({min_font: 18, max_font: 28, amount: 30, orderby: 'count'}) %>
+    <% } %>
+  </div>
+</div>

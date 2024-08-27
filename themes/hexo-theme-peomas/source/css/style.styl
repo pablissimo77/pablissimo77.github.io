@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Poppins:wght@300;400;500;700');
+
+@import '_mixin/github_markdown.css';
+@import '_mixin/prism.css';
+@import '_mixin/normalize.css';
+@import '_colors';
+@import '_partial/*';
+@import '_widget/*';
+@import '_pages/*';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: $bg-color;
+  color: $text-color;
+}
+
+main {
+  position: relative;
+}
+
+#main {
+  min-height: calc(100vh - 170px);
+}
+
+@media(max-width: 767px) {
+  #main > .py-5 {
+    padding-top: 0 !important;
+  }
+}
+
+button {
+  &:focus {
+    box-shadow: none !important;
+  }
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.list-header {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  color: $header-text-color;
+  border-bottom: 3px solid $header-text-color;
+}
+
+.tag {
+  &:hover {
+    color: $blue !important;
+  }
+}
+
+// overwrite the n-progress
+#nprogress {
+.bar {
+    background: unquote(hexo-config('nprogress.color')) !important;
+  }
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+// overwrite the markdown
+code {
+  color: inherit;
+  font-size: 0.85rem !important;
+}
+
+pre {
+  border: none !important;
+}

@@ -1,0 +1,27 @@
+<ul class="flex items-center mt-4 py-8 border-b-2 border-dashed border-black">
+  <% for (var name in theme.social_links) { %> <% var link =
+  theme.social_links[name]; if (name === 'email') { link = 'mailto:' + link } %>
+  <li class="mr-4 w-6 h-6">
+    <a href="<%- link %>" target="_blank" rel="noopener">
+      <img src="/icons/<%- name %>.svg" alt="<%- name %>" />
+    </a>
+  </li>
+  <% } %>
+</ul>
+<ul class="py-8">
+  <% var field_sort = theme.posts_overview.sort_updated ? 'updated' : 'date' %>
+  <% if (theme.posts_overview.show_all) { %> <% var posts =
+  page.posts.sort(field_sort, 'desc') %> <% } else { %> <% var posts =
+  site.posts.sort(field_sort, 'desc').limit(theme.posts_overview.count || 10) %>
+  <% } %> <% posts.each(function(post, i) { %>
+  <li class="odd:bg-gray-100 even:bg-white hover:bg-gray-50 transition-colors">
+    <a
+      href="<%= url_for(post.path)%>"
+      class="group flex items-center justify-between py-4 px-2"
+    >
+      <span class="group-hover:text-orange-500"><%- post.title %></span>
+      <span class="text-sm"><%- full_date(post.date, 'MMM Do YYYY') %></span>
+    </a>
+  </li>
+  <% }) %>
+</ul>

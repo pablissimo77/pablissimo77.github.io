@@ -1,0 +1,30 @@
+<div class="photography-item">
+    <img
+        class="lazy"
+        data-src="<%= item.thumbnail || item.photo %>"
+        data-original="<%= item.photo || item.thumbnail %>"
+        alt="<%= item.title || config.title || '' %>"
+    />
+    <div class="photography-item-wrapper"></div>
+
+    <% if (item.title) { %>
+    <div class="photography-item-title">
+        <%= item.title %> 
+    </div>
+    <% } %>
+
+    <% if (item.place) { %>
+    <div class="photography-item-place">
+        <ion-icon name="location"></ion-icon>
+        <span><%= item.place %></span>
+    </div>
+    <% } %>
+
+    <% if (item.icon && item.icon.name) { %>
+    <div class="photography-item-icon">
+        <% if (item.icon.url) { %><a target="_blank" href="<%- item.icon.url %>"><% } %>
+            <ion-icon name="<%- item.icon.name %>"></ion-icon>
+        <% if (item.icon.url) { %></a><% } %> 
+    </div>
+    <% } %>
+</div>

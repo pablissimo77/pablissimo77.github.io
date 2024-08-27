@@ -1,0 +1,25 @@
+<footer>
+    <div class="outer">
+        <div class="inner">
+            Powered by <a href="https://github.com/hdxw/hexo-theme-prowiki" target="_blank">ProWiki</a>
+            &copy;<%- date(new Date(), 'YYYY') %> <%= theme.footer.copyright %><br>
+            <a href="http://beian.miit.gov.cn/"><%= theme.footer.beian %></a>
+            <div style="height: 50px;"></div>
+        </div>
+    </div>
+</footer>
+<%- js('js/custom.js') %>
+<% if (page.encrypt) { %>
+    <script>
+        function listen_content(){
+            if($(".hbe-button").length > 0){
+                onload_content();
+            }else{
+                setTimeout(listen_content, 100);
+            }
+        }
+        setTimeout(listen_content, 100);
+    </script>
+<% }else{ %>
+    <script>onload_content();</script>
+<% } %>

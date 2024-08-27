@@ -1,0 +1,22 @@
+nav:
+  home: Home
+  about: About
+  archives: Archives
+  tags: Tags
+
+index:
+  articles: Articles
+
+footer:
+  powered: Powered by
+  theme: Theme
+
+counter:
+  archives:
+    zero: No Posts
+    one: 1 Post In Total
+    other: "%d Posts In Total"
+  tags:
+    zero: No Tags
+    one: 1 Tag In Total
+    other: "%d Tags In Total"

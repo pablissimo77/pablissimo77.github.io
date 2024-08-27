@@ -1,0 +1,15 @@
+<div class="py-8 post">
+  <h1 class="text-3xl font-semibold"><%= page.title %></h1>
+  <article class="post-content"><%- page.content %></article>
+  <div class="flex items-center justify-between text-sm">
+    <% if (page.tags) { %>
+    <span class="flex items-center">
+      <% page.tags.each(function(tag) { %> <%- link_to(tag.path, '#' + tag.name,
+      { class: 'mr-2 text-gray-500' }) %> <% }) %>
+    </span>
+    <% } %>
+    <span class="text-gray-500"
+      ><%= date(page.date, 'YYYY-MM-DD') %></span
+    >
+  </div>
+</div>

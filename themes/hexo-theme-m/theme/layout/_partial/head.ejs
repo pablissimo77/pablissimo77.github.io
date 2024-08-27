@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html <% if(config.language !== null) { %>lang="<%- config.language.substring(0,2) %>" <% } %>>
+<head>
+    <%- fragment_cache ('head_common', function (){
+        return partial ('_partial/head_common');
+    }) %>
+    <%
+        var title = page.title;
+    if (is_archive()){
+        title = __('common.archive');
+        if (is_month()){
+            title += ': ' + page.year + '-' + page.month;
+        } else if (is_year()){
+            title += ': ' + page.year;
+        }
+    } else if (is_category()){
+        title = __('common.category') + ': ' + page.category;
+    } else if (is_tag()){
+        title = __('common.tag') + ': ' + page.tag;
+    }
+    %>
+    <title><% if (title){ %><%= title %> | <% } %><%= config.title %></title>
+    <link rel="canonical" href="<%= config.url + url_for(page.path).replace('index.html', '') %>">
+    <%- open_graph({twitter_id: theme.open_graph.twitter, google_plus: theme.open_graph.google_plus, fb_admins: theme.open_graph.fb_admins, fb_app_id: theme.open_graph.fb_app_id}) %>
+</head>

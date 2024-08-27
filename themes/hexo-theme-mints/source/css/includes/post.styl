@@ -1,0 +1,72 @@
+@import './post/code'
+
+.post-content
+  h1
+    margin: 1.875rem 0
+    font-size: 1.875rem
+
+  h2
+    margin: 1.5rem 0
+    font-size: 1.5rem
+
+  h3
+    margin: 1.25rem 0
+    font-size: 1.125rem
+
+  h4
+    margin: 1.125rem 0
+    font-size: 1.125rem
+
+  h5
+    margin: 1rem 0
+    font-size: 1rem
+
+  h6
+    margin: 0.75rem 0
+    font-size: 0.75rem
+
+  h1, h2, h3, h4, h5, h6
+    font-weight: 600
+
+    &::before
+      content: '$'
+      margin-right: 4px
+      color: #f97316
+
+  blockquote
+    position: relative
+    margin: 1rem 0
+    padding: 0.5rem 0.5rem
+    border-left: 0.25rem solid #f97316
+    border-radius: 2px
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2)
+
+    p
+      margin: 0
+
+  ul
+    padding-left: 2rem
+
+    li
+      list-style: disc
+
+  ol
+    padding-left: 2rem
+
+    li
+      list-style: decimal
+
+  p
+    margin: 1rem 0
+
+  a
+    padding: 0 0.2rem
+    color: #fb923c
+    text-decoration: underline
+
+  code
+    padding: 0.2rem 0.4rem
+    font-size: 14px
+    color: #f97316
+    background-color: rgba(#f97316, 0.1)
+    border-radius: 6px

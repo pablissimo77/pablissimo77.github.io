@@ -1,0 +1,112 @@
+# Site Settings
+m:
+  dev_mode: false # do not change unless you know what you are doing
+  syntax: "-" # syntax
+  opacity: "1" # card opacity
+  border_radius: "4px" # card border-radius
+  max_width: "720px" # container max width
+  layout: "light" # appbar/drawer layout, light / dark / auto
+  css: |
+    body{background-color: #f6f6f6}
+
+mdui:
+  primary: "indigo" # https://mdui.org/docs/color
+  accent: "pink" # https://mdui.org/docs/color
+  layout: "light" # card layout, light / dark / auto
+  shadow: "1" # card shadow, 0-16
+  hoverable: true # card hoverable, false / true
+  card_media_covered: normal # card media covered, normal / gradient / transparent 
+  drawer_close: true # false / true
+
+head:
+  theme_color: "#3F51B5"
+  favicon: # 16*16 / 32*32 / 48*48
+  high_res_icon: # 192*192
+  apple_touch_icon: # 180*180
+  preconnect:
+  prefetch:
+  dns_prefetch:
+    - "//cdn.jsdelivr.net"
+
+url:
+  rss: "/atom.xml"
+  avatar: "#"
+  search: "/search/"
+  links: "/links/"
+  hosted_on: ""
+
+appbar:
+  scroll_hide: true
+  title: true
+  search: true
+  rss: false
+
+drawer:
+  avatar: 
+  toc: false
+  search: false
+  home: true
+  archives: true
+  categories: true
+  tags: false
+  links: false
+  rss: false
+
+footer:
+  since: 
+  hosted_on: 
+  powered_by_hexo: true
+  theme_m: true
+  custom: |
+
+open_graph:
+  google_analytics:
+  twitter:
+  google_plus:
+  fb_admins:
+  fb_app_id:
+
+posts:
+  thumbnail_title: false # true /false
+  index_content: auto # false / auto / excerpt / content
+  show_categories: false
+  license: '<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>'
+
+comments:
+  use: false # utterances
+  utterances:
+    repo: 
+    issue_term: pathname
+    theme: preferred-color-scheme
+    src: "https://utteranc.es/client.js"
+  giscus:
+    repo:
+    repo_id:
+    category:
+    category_id:
+    mapping: pathname
+    reactions_enabled: 1
+    input_position: bottom
+    theme: preferred_color_scheme
+    src: "https://giscus.app/client.js"
+
+search:
+  use: google # google
+  google:
+    search_site: 
+
+plugins:
+  pjax: false
+  pangu: false
+  pwa: false
+  script:
+
+vendors:
+  mdui_css: "https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/css/mdui.min.css" # 1.0.2
+  mdui_js: "https://cdn.jsdelivr.net/npm/mdui@1.0.2/dist/js/mdui.min.js" # 1.0.2
+  pjax_js: "https://cdn.jsdelivr.net/npm/pjax@0.2.8/pjax.min.js" # 0.2.8
+  pangu_js: "https://cdn.jsdelivr.net/npm/pangu@4.0.7/dist/browser/pangu.min.js" # 4.0.7
+  # prism_theme: "https://cdn.jsdelivr.net/gh/kwaa/hexo-theme-m/theme/source/css/prism-m.css"
+  prism_theme: "/css/prism-m.css"
+  prism_line_numbers: "https://cdn.jsdelivr.net/gh/PrismJS/prism/plugins/line-numbers/prism-line-numbers.css"
+  busuanzi_js: "https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" # 2.3
