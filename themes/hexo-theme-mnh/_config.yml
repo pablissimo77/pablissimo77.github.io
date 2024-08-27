@@ -59,12 +59,12 @@ theme:
 
 # Baidu Analytics
 baidu_analytics:
-  enable: true
+  enable: false
   key: ef3d4cb0b64c69ddba44dfcb86c2c6d4
 # Google Analytics
 # use google analytics 4
 google_analytics:
-  enable: true
+  enable: false
   gtag: G-1J53LZ1GGM
 
 # Duoshuo
@@ -73,7 +73,7 @@ duoshuo_shortname:
 disqus_shortname:
 # utterances
 utterances:
-  enable: true
+  enable: false
   repo: meannoharm/meannoharm.github.io
   issueTerm: pathname
   theme: github-light
