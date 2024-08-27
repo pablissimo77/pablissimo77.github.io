@@ -1,0 +1,28 @@
+.search-container-mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  display: none;
+  &.active {
+    display: block;
+  }
+  .search-container {
+    .panel-block {
+      a {
+        color: #363636;
+        width: 100%;
+      }
+      em {
+        background: rgba(84, 104, 255, 0.1);
+        color: #5468ff;
+        font-style: normal;
+      }
+    }
+  }
+}
