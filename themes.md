@@ -1,5 +1,6 @@
 * black-blue --
-* hexo-fabric --
+* hexo-fabric +-
+* hexo-theme-aomori
 * hexo-theme-gstyle ++
 * hexo-theme-light --
 * hexo-theme-minima --
