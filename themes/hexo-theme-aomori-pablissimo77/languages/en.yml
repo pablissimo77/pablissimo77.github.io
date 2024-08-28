@@ -1,5 +1,5 @@
 newer: newer
-older: older
+older: <ion-icon name="source/img/chevron-back-circle-outline"></ion-icon> older
 prev: prev
 next: next
 share: share

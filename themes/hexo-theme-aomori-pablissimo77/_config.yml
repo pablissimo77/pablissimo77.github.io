@@ -7,14 +7,4 @@ aomori_widgets:
   - recent_posts
   - archive
 
-aomori_menu:
-  Home: /
-  Archives: /archives
 
-aomori_copyright: true # or false
-
-aomori_social:
-  -
-    icon: logo-facebook # Ionicons name
-    type: social
-    url: https://facebook.com/pablissimo77 # Your social link
