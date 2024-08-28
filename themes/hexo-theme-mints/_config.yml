@@ -8,6 +8,7 @@ nav:
   about: /about/
   archives: /archives/
   tags: /tags/
+  categories: /categories/
 
 # Posts OverView
 posts_overview:
@@ -16,13 +17,13 @@ posts_overview:
   sort_updated: false
 
 # Links to your social media.
-social_links:
-  email:
-  github:
-  linkedin:
-  twitter:
-  instagram:
-  youtube:
+#social_links:
+#  email:
+#  github:
+#  linkedin:
+#  twitter:
+#  instagram:
+#  youtube:
 
 # Site Create Time
 since:
