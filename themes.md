@@ -3,5 +3,5 @@
 * hexo-theme-minima --
 * **hexo-theme-mints**
 * hexo-theme-one-paper +/-
-* hexo-theme-phase
+* hexo-theme-phase +/-
 * !! **hexo-theme-prowiki**
