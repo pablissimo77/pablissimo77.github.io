@@ -11,32 +11,33 @@ class="article article-type-<%= post.layout %>"
 </div>
 <% } %>
 
-<!-- <div class="article-inner"> -->
-<!--     <% if (!post.video && (post.cover || post.photos && post.photos.length)){ %> -->
-<!--     <div class="article-feature"> -->
-<!--         <a href="<%- url_for(post.path) %>"> -->
-<!--             <img -->
-<!--                 src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E" -->
-<!--                 data-src="<%- url_for(post.cover || post.photos[0]) %>" -->
-<!--                 alt="item.title" -->
-<!--                 class="lazy" -->
-<!--             /> -->
-<!--         </a> -->
-<!--     </div> -->
-<!--     <% } %> -->
+<div class="article-inner">
+    <% if (!post.video && (post.cover || post.photos && post.photos.length)){ %>
+    <div class="article-feature">
+        <a href="<%- url_for(post.path) %>">
+            <img
+                src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 3 2'%3E%3C/svg%3E"
+                data-src="<%- url_for(post.cover || post.photos[0]) %>"
+                alt="item.title"
+                class="lazy"
+            />
+        </a>
+    </div>
+    <% } %>
 
-<!--     <div class="article-body"> -->
-<!--     <header class="article-title"> -->
-<!--         <a href="<%- url_for(post.path) %>"><%= post.title %></a> -->
-<!--     </header> -->
-<!--     <div class="article-entry post-inner-html"> -->
+    <div class="article-body">
+    <header class="article-title">
+        <a href="<%- url_for(post.path) %>"><%= post.title %></a>
+    </header>
+    <div class="article-entry post-inner-html">
+        <%- post.excerpt %>
 <!--         <% if (post.excerpt){ %> -->
 <!--         <%- post.excerpt %> -->
 <!--         <% } else { %> -->
 <!--         <%- post.content %> -->
 <!--         <% } %> -->
-<!--     </div> -->
-<!--     </div> -->
+    </div>
+    </div>
 
 <!--     <div class="article-badge"> -->
 <!--         <% if(post.sticky) { %> -->
@@ -51,7 +52,7 @@ class="article article-type-<%= post.layout %>"
 <!--         <% } %> -->
 <!--     </div> -->
 
-<!-- </div> -->
+</div>
 
 <footer class="article-footer">
     <div class="article-more-info">

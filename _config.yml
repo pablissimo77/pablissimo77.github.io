@@ -110,11 +110,12 @@ deploy:
 aomori_menu:
   Home: /
   Archives: /archives
+  Tags: /tags
 
-aomori_copyright: true # or false
+aomori_copyright: false # or false
 
-aomori_social:
-  -
-    icon: logo-facebook # Ionicons name
-    type: social
-    url: https://facebook.com/pablissimo77 # Your social link
+#aomori_social:
+#  -
+#    icon: logo-facebook # Ionicons name
+#    type: social
+#    url: https://facebook.com/pablissimo77 # Your social link
