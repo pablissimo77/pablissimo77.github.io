@@ -107,13 +107,12 @@ deploy:
   type: ''
 
 
-aomori_menu:
-  Home: /
-  Archives: /archives
-  Tags: /tags
-
-aomori_copyright: false # or false
-
+#aomori_menu:
+#  Home: /
+#  Archives: /archives
+#
+#aomori_copyright: false # or false
+#
 #aomori_social:
 #  -
 #    icon: logo-facebook # Ionicons name
