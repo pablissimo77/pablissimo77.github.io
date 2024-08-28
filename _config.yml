@@ -44,16 +44,16 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: prismjs.js
+syntax_highlighter: highlight.js
 highlight:
-  enable: false
+  enable: true
   line_number: false
   auto_detect: false
   tab_replace: '    '
   wrap: false
   hljs: true
 prismjs:
-  enable: true
+  enable: false
   preprocess: true
   line_number: true
   tab_replace: ''
@@ -99,7 +99,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-one-paper
+theme: black-blue
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
