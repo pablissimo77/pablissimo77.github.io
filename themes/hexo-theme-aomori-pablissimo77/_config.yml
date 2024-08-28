@@ -1,0 +1,20 @@
+version: 1654266144177
+language: en
+aomori_widgets:
+  - toc
+  - category
+  - tag
+  - recent_posts
+  - archive
+
+aomori_menu:
+  Home: /
+  Archives: /archives
+
+aomori_copyright: true # or false
+
+aomori_social:
+  -
+    icon: logo-facebook # Ionicons name
+    type: social
+    url: https://facebook.com/pablissimo77 # Your social link
