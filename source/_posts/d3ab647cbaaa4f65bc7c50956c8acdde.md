@@ -6,7 +6,7 @@ tags: []
 categories:
   - COOKING
 date: 1645488126399
-updated: 1738569037910
+updated: 1738569241671
 ---
 
 <img width="640" height="319" src="/resources/756b12aadb964578910afe13617c86aa.jpg" class="jop-noMdConv">
@@ -24,10 +24,6 @@ updated: 1738569037910
 Активное (требуется ваше участие) 30 мин.
 
 ## Ингредиенты
-
-| sss  | dsds   | dfdfdfd |
-| ---- | ------ | ------- |
-| ssss | sssdsd | ddfd    |
 
 |                      |                        |
 | -------------------- | ---------------------- |
